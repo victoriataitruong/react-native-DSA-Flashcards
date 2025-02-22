@@ -1,0 +1,71 @@
+Bubble Sort (The Slow Bubbler)
+Imagine bubbles rising in water. The biggest bubbles (numbers) keep swapping places until they reach the top (end of the list).
+It compares two numbers at a time and swaps them if they’re in the wrong order.
+Repeats this process until the whole list is sorted.
+Super slow (O(n²) time complexity), so it’s mostly used in teaching rather than real-world applications.
+💡 Analogy: Like passing a hot potato down a line of people until it reaches the last person.
+
+Selection Sort (The Picker)
+Looks through the entire list to find the smallest number and puts it at the beginning.
+Then finds the second smallest and puts it in the second spot.
+Keeps repeating until everything is sorted.
+Still O(n²) time complexity, but slightly better than Bubble Sort.
+💡 Analogy: Imagine picking the best players for a team. You first pick the best, then the second best, and so on.
+
+Insertion Sort (The Card Player)
+Moves left to right, placing each number into its correct spot as it goes.
+Works best when the list is mostly sorted.
+O(n²) in worst case, but much better than Bubble and Selection Sort for small or nearly sorted lists.
+💡 Analogy: Sorting cards in your hand. You pick up one card at a time and put it where it belongs.
+
+Merge Sort (The Splitter & Merger)
+Divide and conquer approach:
+Keep splitting the array in half until each piece is just one number.
+Merge the pieces back together in the right order.
+Fast (O(n log n) time complexity) and works well with large datasets.
+Uses extra memory to store the split pieces.
+💡 Analogy: Like sorting puzzle pieces by first grouping similar ones, then merging them into the full picture.
+
+Quick Sort (The Pivot Master)
+Choose a pivot (a random number from the list).
+Put smaller numbers on the left and bigger numbers on the right.
+Repeat the process for each side until the list is sorted.
+O(n log n) time complexity, but can be slower if the pivot is chosen poorly.
+💡 Analogy: Like organizing a party by picking a person (pivot) and telling everyone taller to stand on one side, and shorter on the other.
+
+Heap Sort (The Pyramid Sorter)
+Builds a max heap (a tree where the biggest number is always at the top).
+Removes the largest number and rearranges the heap.
+Keeps repeating until the list is sorted.
+O(n log n) time complexity, but not as commonly used as Quick Sort or Merge Sort.
+💡 Analogy: Think of a tournament where the strongest player (largest number) is placed at the top, then removed, and the rest compete again.
+
+Counting Sort (The Counter)
+Only works with small numbers or limited ranges.
+Counts how many times each number appears and reconstructs the sorted list.
+Super fast (O(n)), but not practical for large numbers.
+💡 Analogy: Like sorting test scores by counting how many students got each grade and listing them in order.
+
+Shell Sort (The Gap Sorter)
+Advanced Insertion Sort that jumps over gaps instead of moving one by one.
+First sorts numbers at bigger gaps, then smaller gaps, and finally sorts everything normally.
+Faster than Insertion Sort but still not as fast as Quick Sort.
+💡 Analogy: Organizing books on a shelf by first roughly placing them in the right section, then fine-tuning their positions.
+
+Tim Sort (The Smart Hybrid)
+Used in Python and JavaScript because it’s very efficient.
+Mix of Merge Sort & Insertion Sort:
+Breaks the array into small "runs" and sorts them using Insertion Sort.
+Merges the sorted runs using Merge Sort.
+Uses adaptive merging to be extra efficient.
+O(n log n) time complexity and great for real-world use.
+💡 Analogy: Like cleaning your room in sections, then organizing the sections together.
+
+Radix Sort (The Digit Sorter)
+Sorts numbers by their digits, starting from the rightmost digit (ones place), then the tens, then the hundreds, etc.
+Uses Counting Sort internally to group numbers by digit.
+Super fast (O(n)), but only works well for numbers (not words or complex data).
+💡 Analogy: Like sorting papers in a filing cabinet by first sorting by last name, then by first name, then by middle initial.
+
+
+

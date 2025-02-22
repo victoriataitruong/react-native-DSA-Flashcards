@@ -1,0 +1,43 @@
+1. Singleton Pattern – The Ice Cream Truck
+Imagine there’s only one ice cream truck in your town. No matter where you go, if you want ice cream, you have to go to that same truck.
+
+This is like a Singleton—only one exists, and everyone shares it!
+Example: A game leaderboard that keeps track of scores. There’s only one scoreboard for everyone.
+
+2. Factory Pattern – The Toy Factory
+Think of a big toy factory. You don’t build your own toys; instead, you tell the factory, “I want a teddy bear” or “I want a toy car,” and the factory makes it for you.
+
+The Factory Pattern is like this—it makes things for you so you don’t have to worry about how they’re made!
+Example: In a game, if you want a "zombie" or a "dragon," you just ask the monster factory, and it creates one for you!
+
+3. Observer Pattern – The School Bell
+When the school bell rings, all the students know it’s time to leave. The bell doesn’t tell each student one by one—it just rings, and everyone reacts.
+
+That’s how the Observer Pattern works—one thing (the bell) changes, and many things (students) respond!
+Example: When you post a picture on Instagram, all your followers get notified automatically!
+
+4. Decorator Pattern – A Birthday Cake
+You start with a plain cake. Then you add chocolate, then sprinkles, then candles. The cake keeps getting better, but the base cake stays the same!
+
+The Decorator Pattern lets you add things without changing the original!
+Example: You start with a basic car, then add a turbo engine, fancy lights, and a spoiler—but it’s still the same car underneath!
+
+5. Strategy Pattern – Choosing How to Travel
+Imagine you want to go to the park. You can:
+
+Walk
+Ride a bike
+Take a bus
+Each one gets you there, but in different ways. You choose which one works best for you!
+
+The Strategy Pattern is like this—it lets you pick the best way to do something!
+Example: In a racing game, you can choose between “Speed Mode” or “Drift Mode”, and the car behaves differently depending on your choice!
+
+
+FODSS:
+Factory - Premade items, like in art app, if you want circle you just ask the circle factory
+Observe - Social media, when you post something everyone gets notified
+Decorator - You can add without changing the original. You can order a cake at the bakery and then design it however you want
+Singleton - Everyone uses the same one, in an app everyone uses same connection string
+Strategy - Choosing how you want to travel, by walk by bike, etc
+
