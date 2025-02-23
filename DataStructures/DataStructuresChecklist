@@ -1,5 +1,5 @@
 Array (pill container for everyday of week) (Inclues stacks (stack of magazines)) and queues(line at the bank): 1 DONE
-ArrayLists (dynamic array): 1 DONE
+ArrayLists (dynamic array): 1 DONE (Not in JS since JS arrays are resizable)
 AVLTree: 0
 BinarySearchTree (the DOM in JavaScript): 0
 BinaryTree: 0
